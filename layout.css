@@ -3,25 +3,13 @@
 }
 
 body {
-  width: 1440px;
-  display: block;
+  max-width: 1440px;
   background-color: #111111;
   font-family: "Wermut", sans-serif;
   overflow-x: hidden;
   margin: 0 auto;
   position: relative;
 }
-
-/* body::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-image: url(images/BODY_EXAMPLE.svg);
-  width: 1440px;
-  height: 12043px;
-  opacity: 0.1;
-} */
 
 h1 {
   display: flex;
@@ -330,8 +318,6 @@ p {
   margin-right: 20px;
 }
 
-/* пятая секция */
-
 .sectionFifth h2 {
   position: absolute;
   color: white;
@@ -419,7 +405,7 @@ p {
   margin-top: 796px;
   margin-left: 69px;
   width: 1456px;
-  height: 9450px;
+  height: 950px;
 }
 
 .yLetter {
@@ -560,3 +546,723 @@ p {
 }
 
 /* шестая секция */
+
+.sectionSixth {
+  display: flex;
+  position: relative;
+  margin-top: -430px;
+  padding-bottom: 650px;
+}
+
+.numbersText {
+  margin-left: 90px;
+  margin-top: -36px;
+}
+
+.numbersText h2 {
+  color: white;
+  padding-bottom: 50px;
+}
+
+.dropCap3 {
+  font-size: 60px;
+  letter-spacing: -12px;
+}
+
+.steam {
+  position: absolute;
+  margin-top: 155px;
+  margin-left: 872px;
+}
+
+.kotel {
+  position: absolute;
+  margin-left: 540px;
+}
+
+.smash {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 150px;
+}
+
+.piNumber {
+  position: absolute;
+  margin-top: 390px;
+  margin-left: 260px;
+  font-size: 198px;
+}
+
+.soplo {
+  position: absolute;
+  margin-top: 720px;
+  margin-left: 40px;
+}
+
+/* седьмая секция */
+
+.sectionSeventh {
+  display: flex;
+  position: relative;
+  background-image: url(images/book.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1440px;
+  height: 1861px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.leftPage {
+  transform: rotate(12deg);
+  position: absolute;
+  margin-top: -650px;
+  margin-left: -470px;
+}
+
+.leftPage h3 {
+  font-size: 64px;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: -2px;
+  padding-bottom: 30px;
+}
+
+.leftPage p {
+  color: #111111;
+  font-size: 24.5px;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+.list {
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+
+.list p {
+  font-style: normal;
+  font-size: 26px;
+  text-align: left;
+}
+
+.kerning {
+  margin-top: 53px;
+  margin-left: -3px;
+  white-space: nowrap;
+}
+
+.essentia {
+  margin-top: 45px;
+  margin-left: 46px;
+}
+
+.contrast {
+  margin-top: 45px;
+  margin-left: 55px;
+  white-space: nowrap;
+}
+
+.dropsPic {
+  position: absolute;
+  font-size: 104px;
+  margin-top: -440px;
+  margin-left: -70px;
+}
+
+.smallNumbers {
+  font-size: 52px;
+  vertical-align: super;
+  margin-left: 5px;
+  line-height: 1;
+  display: inline-block;
+}
+
+.kerningPic {
+  position: absolute;
+  font-size: 104px;
+  margin-top: -325px;
+  margin-left: -65px;
+}
+
+.essentiaPic {
+  position: absolute;
+  font-size: 104px;
+  margin-top: -210px;
+  margin-left: -53px;
+  font-variant-numeric: oldstyle-nums;
+}
+
+.contrastPic {
+  position: absolute;
+  font-size: 104px;
+  margin-top: -89px;
+  margin-left: -44px;
+}
+
+.rightPage {
+  transform: rotate(5deg);
+  margin-top: -445px;
+  margin-left: 375px;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+.cooking {
+  margin-top: -155px;
+  margin-left: -10px;
+  position: absolute;
+  font-size: 26px;
+  white-space: nowrap;
+  line-height: 30px;
+}
+
+.farenheit {
+  position: absolute;
+  font-size: 118px;
+  font-variant-numeric: oldstyle-nums;
+  transform: rotate(2deg);
+  margin-top: -98px;
+  margin-left: -30px;
+  letter-spacing: 1px;
+}
+
+.time {
+  position: absolute;
+  font-size: 34px;
+  white-space: nowrap;
+  transform: rotate(3deg);
+  margin-top: 55px;
+  margin-left: 30px;
+}
+
+.days {
+  position: absolute;
+  font-size: 34px;
+  transform: rotate(4deg);
+  margin-top: 358px;
+  margin-left: 40px;
+}
+
+.formula {
+  position: absolute;
+  margin-top: 420px;
+  margin-left: -90px;
+  font-size: 85px;
+  font-variant-numeric: oldstyle-nums;
+  transform: rotate(3deg);
+  letter-spacing: 1px;
+}
+
+.formulaText {
+  position: absolute;
+  white-space: nowrap;
+  font-size: 25px;
+  margin-top: 510px;
+  margin-left: -40px;
+  transform: rotate(3deg);
+}
+
+.rightPage p {
+  color: #111111;
+}
+
+.ball {
+  position: absolute;
+  margin-left: 510px;
+  margin-top: 30px;
+}
+
+/* восьмая секция */
+
+.sectionEighth {
+  display: flex;
+  position: relative;
+  margin-top: -270px;
+}
+
+.candle {
+  position: absolute;
+  margin-left: 1125px;
+}
+
+.scripts {
+  position: absolute;
+  margin-top: -140px;
+}
+
+.books {
+  position: absolute;
+  margin-top: 425px;
+  margin-left: 40px;
+}
+
+.ligatures {
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 180px;
+}
+
+.ligaturesText h2 {
+  font-variant-ligatures: common-ligatures;
+  font-feature-settings: "liga", "clig", "dlig";
+  color: #ffffff;
+  font-size: 196px;
+  transform: rotate(-1deg);
+}
+
+.ligatureOne {
+  position: absolute;
+  margin-left: 380px;
+  margin-top: 605px;
+}
+
+.ligatureTwo {
+  position: absolute;
+  margin-left: 625px;
+  margin-top: 595px;
+}
+
+.ligatureThree {
+  position: absolute;
+  margin-left: 900px;
+  margin-top: 600px;
+}
+
+.ligaturesTextSecond h2 {
+  color: #111111;
+}
+
+.ligatureFour {
+  position: absolute;
+  margin-left: 390px;
+  margin-top: 850px;
+}
+
+.ligatureFive {
+  position: absolute;
+  margin-left: 670px;
+  margin-top: 845px;
+}
+
+.ligatureSix {
+  position: absolute;
+  margin-left: 910px;
+  margin-top: 823px;
+}
+
+/* девятая секция */
+
+.sectionNineth {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  width: 1440px;
+  height: 3300px;
+  margin: 0 auto;
+}
+
+.bigFlagTwo {
+  position: absolute;
+  margin-top: 1170px;
+  margin-left: 280px;
+}
+
+.symbols {
+  position: absolute;
+  margin-top: 1235px;
+  margin-left: 530px;
+}
+
+.bottle {
+  position: absolute;
+  margin-top: 1490px;
+  margin-left: 245px;
+}
+
+.symbolsText {
+  position: relative;
+  width: 1440px;
+  margin-left: 1250px;
+}
+
+/* Обрезаем всё что выходит за границы */
+.symbolsText > * {
+  max-width: 1440px;
+}
+
+.symbolsText h1 {
+  color: #111111;
+  -webkit-text-stroke: 3px #ffffff;
+  text-shadow: 1px #ffffff;
+  paint-order: stroke fill;
+  margin-top: 1490px;
+  margin-left: 245px;
+  font-size: 250px;
+}
+
+.dollar {
+  position: absolute;
+  transform: rotate(15deg);
+  margin-left: -1245px;
+  margin-top: -52px;
+}
+
+.question {
+  position: absolute;
+  transform: rotate(-35deg);
+  margin-left: -1590px;
+  margin-top: 240px;
+}
+
+.tilda {
+  position: absolute;
+  transform: rotate(6.5deg);
+  margin-left: -950px;
+  margin-top: -100px;
+}
+
+.dog {
+  position: absolute;
+  transform: rotate(-14deg);
+  margin-left: -1570px;
+  margin-top: 300px;
+}
+
+.dog h1 {
+  font-size: 200px;
+}
+
+.marks {
+  position: absolute;
+  transform: rotate(-4deg);
+  margin-left: -1480px;
+  margin-top: 530px;
+}
+
+.slash {
+  position: absolute;
+  transform: rotate(150deg);
+  margin-left: -600px;
+  margin-top: 1820px;
+}
+
+.exclamation {
+  position: absolute;
+  transform: rotate(4.6deg);
+  margin-left: -1260px;
+  margin-top: 680px;
+}
+
+.smile {
+  position: absolute;
+  transform: rotate(165deg);
+  margin-left: -950px;
+  margin-top: 2360px;
+}
+
+.ampersand {
+  position: absolute;
+  transform: rotate(-4.3deg);
+  margin-left: -1280px;
+  margin-top: 1020px;
+}
+
+.figure {
+  position: absolute;
+  transform: rotate(-112deg);
+  margin-left: -1870px;
+  margin-top: 2390px;
+}
+
+.paragraph {
+  position: absolute;
+  transform: rotate(-15deg);
+  margin-left: -1600px;
+  margin-top: 1570px;
+}
+
+.pine {
+  position: absolute;
+  transform: rotate(-15deg);
+  margin-left: -1440px;
+  margin-top: 1420px;
+}
+
+.procent {
+  position: absolute;
+  transform: rotate(15deg);
+  margin-left: -820px;
+  margin-top: 1250px;
+}
+
+.cross {
+  position: absolute;
+  transform: rotate(34.5deg);
+  margin-left: -620px;
+  margin-top: 1580px;
+}
+
+.star {
+  position: absolute;
+  transform: rotate(-14deg);
+  margin-left: -780px;
+  margin-top: 1180px;
+}
+
+.dots {
+  position: absolute;
+  transform: rotate(-47deg);
+  margin-left: -950px;
+  margin-top: 1340px;
+}
+
+.smileSecond {
+  position: absolute;
+  transform: rotate(-60deg);
+  margin-left: -870px;
+  margin-top: 1670px;
+}
+
+.pineSecond {
+  position: absolute;
+  transform: rotate(-15deg);
+  margin-left: -440px;
+  margin-top: 1070px;
+}
+
+.upMark {
+  position: absolute;
+  transform: rotate(-15deg);
+  margin-left: -450px;
+  margin-top: 950px;
+}
+
+.marksSecond {
+  position: absolute;
+  transform: rotate(180deg);
+  margin-left: 100px;
+  margin-top: 2130px;
+}
+
+.letter {
+  position: absolute;
+  transform: rotate(15deg);
+  margin-left: -100px;
+  margin-top: 440px;
+}
+
+.gridMark {
+  position: absolute;
+  transform: rotate(-45deg);
+  margin-left: -920px;
+  margin-top: 595px;
+}
+
+.dotComa {
+  position: absolute;
+  transform: rotate(-47deg);
+  margin-left: -760px;
+  margin-top: 540px;
+}
+
+.numberMark {
+  position: absolute;
+  transform: rotate(5deg);
+  margin-left: -380px;
+  margin-top: 70px;
+}
+
+.numberMark h1 {
+  font-size: 200px;
+}
+
+.tire {
+  position: absolute;
+  transform: rotate(90deg);
+  margin-left: 650px;
+  margin-top: 600px;
+}
+
+.tire h1 {
+  font-size: 200px;
+}
+
+.rule p {
+  color: #111111;
+  text-align: center;
+  font-style: italic;
+  font-size: 25px;
+  line-height: 25px;
+  transform: rotate(40deg);
+}
+
+.rule {
+  margin-left: 880px;
+  margin-top: 1960px;
+  position: absolute;
+}
+
+.bottleLetters {
+  margin-left: 490px;
+  margin-top: 2170px;
+  position: absolute;
+  font-size: 167.5px;
+  transform: rotate(-7deg);
+  letter-spacing: -15px;
+}
+
+/* десятая секция */
+
+.sectionTenth {
+  display: flex;
+  position: relative;
+  margin-top: -550px;
+}
+
+.hand {
+  position: absolute;
+  margin-left: 540px;
+}
+
+.handText h1 {
+  font-size: 81px;
+}
+
+.stars {
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 562px;
+}
+
+.piNumberSecond {
+  position: absolute;
+  margin-left: 660px;
+  margin-top: 680px;
+}
+
+.omega {
+  position: absolute;
+  margin-left: 810px;
+  margin-top: 160px;
+  transform: rotate(-15deg);
+}
+
+.nineNumber {
+  position: absolute;
+  margin-left: 815px;
+  margin-top: 290px;
+}
+
+.sigma {
+  position: absolute;
+  margin-left: 845px;
+  margin-top: 465px;
+}
+
+.ligatureHand {
+  position: absolute;
+  margin-left: 835px;
+  margin-top: 610px;
+}
+
+.delta {
+  position: absolute;
+  margin-left: 990px;
+  margin-top: 90px;
+}
+
+.infinity {
+  position: absolute;
+  margin-left: 980px;
+  margin-top: 250px;
+}
+
+.paragraphHand {
+  position: absolute;
+  margin-left: 990px;
+  margin-top: 445px;
+}
+
+.fraction {
+  position: absolute;
+  margin-left: 960px;
+  margin-top: 610px;
+}
+
+.lHand {
+  position: absolute;
+  margin-left: 1145px;
+  margin-top: 140px;
+}
+
+.dHand {
+  position: absolute;
+  margin-left: 1120px;
+  margin-top: 330px;
+}
+
+.pound {
+  position: absolute;
+  margin-left: 1110px;
+  margin-top: 480px;
+}
+
+.indent {
+  position: absolute;
+  margin-left: 1310px;
+  margin-top: 360px;
+}
+
+.bug {
+  position: absolute;
+  margin-left: 1270px;
+  margin-top: 485px;
+}
+
+.crystal {
+  position: absolute;
+  margin-left: 1250px;
+  margin-top: 600px;
+}
+
+.beta {
+  position: absolute;
+  margin-left: 1180px;
+  margin-top: 720px;
+}
+
+.crossedLetter h1 {
+  font-size: 360px;
+}
+
+.crossedLetter {
+  position: absolute;
+  margin-left: 860px;
+  margin-top: 730px;
+}
+
+.endText {
+  position: absolute;
+  margin-top: 605px;
+  margin-left: 80px;
+}
+
+.authors {
+  padding-bottom: 70px;
+}
+
+.endText p {
+  font-size: 36px;
+}
+
+.logo {
+  position: absolute;
+  margin-top: 1110px;
+  margin-left: 90px;
+}
