@@ -8,17 +8,31 @@ body {
   background-color: #111111;
   font-family: "Wermut", sans-serif;
   overflow-x: hidden;
-   margin: 0 auto;
+  margin: 0 auto;
+  position: relative;
 }
 
+/* body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(images/BODY_EXAMPLE.svg);
+  width: 1440px;
+  height: 12043px;
+  opacity: 0;
+} */
+
 h1 {
-  font-size: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 460px;
   letter-spacing: -40px;
   color: white;
   -webkit-text-stroke: 8px #111111;
   text-shadow: 1px #111111;
   paint-order: stroke fill;
-
 }
 
 h2 {
@@ -38,29 +52,30 @@ p {
   line-height: 130%;
 }
 
-
-
 /* первая секция */
 
 .sectionFirst {
   display: flex;
+  position: relative;
 }
 
 .sun {
   width: 274px;
-  margin-top: 123px;
+  margin-top: 110px;
+  margin-left: 90px;
 }
 
 .leaves {
-  margin-top: 50px;
+  margin-top: 5px;
+  margin-left: -100px;
 }
 
 .warning {
   transform: rotate(15deg);
   align-items: center;
   justify-content: center;
-  margin-top: 90px;
-  margin-left: -120px;
+  margin-top: 110px;
+  margin-left: -220px;
 }
 
 .warningText {
@@ -69,7 +84,6 @@ p {
   position: relative;
   margin-top: -280px;
   margin-left: 40px;
-
 }
 
 .warning p {
@@ -78,6 +92,8 @@ p {
   letter-spacing: -4%;
   text-align: center;
   line-height: 120%;
+  margin-top: 180px;
+  margin-left: -210px;
 }
 
 .warning h2 {
@@ -87,14 +103,15 @@ p {
   text-align: center;
   line-height: 120%;
   transform: rotate(15deg);
-
 }
-
 
 /* вторая секция  */
 
 .sectionSecond {
   display: flex;
+  position: relative;
+  margin-left: 20px;
+  margin-top: 5px;
 }
 
 .headline {
@@ -108,124 +125,185 @@ p {
 
 /* третья секция */
 
-
-/* 
+.sectionThird {
+  display: flex;
+  margin-top: -180px;
 }
 
-
-
-
-
-.warning {
+.illustrations {
   display: flex;
-  flex-direction: column;
+  position: relative;
   align-items: center;
-  transform: rotate(15deg);
-  background-image: url("images/warning.svg");
-  margin-left: 1240px;
-  margin-top: 80px;
-  width: 297px;
-  height: 297px;
-  padding-top: 20px;
-}
-
-
-
-.leavesImg {
-  margin-top: -411px;
-  display: flex;
   justify-content: center;
-}
-
-.sunImg {
-  margin-top: -711px;
-  margin-left: -1070px;
-  display: flex;
-  justify-content: center;
-}
-
-.warning 
-
-.containerHeadline {
-  top: 0;
   left: 0;
-  width: 100%;
-  height: 110%;
-  display: flex;
-  align-items: center; /* вертикальное центрирование */
-  /* justify-content: center; /* горизонтальное центрирование */
+  top: 0;
+  width: 1800px;
+  height: 1798px;
+}
 
-/* .antique span {
+.antique {
+  position: absolute;
+  margin-left: 110px;
+  margin-top: 130px;
+}
+
+.antique span {
   font-size: 60px;
-} */
-
-/* .antique {
-  margin-top: 30px;
-  margin-left: -1170px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-
-.illustrations_2 {
-  display: flex;
-  justify-content: center;
-  margin-top: -320px;
-}
-
-.poison {
-  color: #111111;
-  display: flex;
-  transform: rotate(38deg);
-  justify-content: center;
-  margin-top: -1280px;
-  margin-left: 1020px;
-  font-size: 92px;
-  letter-spacing: -4%;
-} */
 
 .bitter {
-  margin-top: 900px;
-  margin-left: 1000px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  margin-top: 1480px;
+  margin-left: 1060px;
 }
 
-.diacritics {
-  margin-top: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.belladonna h4 {
+  color: white;
+  font-size: 58px;
 }
 
-/* .diacriticsHeadline {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.belladonna p {
+  font-size: 41px;
+  font-style: italic;
 }
 
-/* .diacriticsHeadline p {
+.belladonna {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 545px;
+  margin-left: 250px;
+  line-height: 60px;
+}
+
+.venenum {
+  position: absolute;
+  text-align: center;
+  margin-top: 695px;
+  margin-left: 895px;
+  line-height: 15px;
+  letter-spacing: -4px;
+}
+
+.venenum p {
+  font-size: 60px;
   color: #111111;
-  font-size: 45px;
+}
+
+.venenum h4 {
+  font-size: 60px;
+  font-style: italic;
+  color: #111111;
+}
+
+.poison p {
+  color: #111111;
+  position: absolute;
+  font-size: 92px;
+  transform: rotate(38deg);
+  margin-left: -270px;
+  margin-top: 490px;
+  letter-spacing: -4px;
+}
+
+.board {
+  transform: rotate(-13deg);
+  position: absolute;
+  margin-top: 1045px;
+  margin-left: 135px;
+  text-align: center;
+}
+
+.board h5 {
+  font-variant-numeric: oldstyle-nums;
+  font-style: italic;
+  color: #111111;
+  font-size: 34px;
+}
+
+.board p {
+  color: #111111;
+  font-size: 24px;
+}
+
+.board h6 {
+  color: #111111;
+  font-size: 18px;
+  padding-top: 16px;
+}
+
+.yes {
+  display: flex;
+  gap: 180px;
+  margin-left: -16px;
+  margin-top: -132px;
+  padding-bottom: 86px;
+}
+
+.lovePotion {
+  position: absolute;
+  text-align: center;
+  transform: rotate(-4.5deg);
+  margin-top: 1320px;
+  margin-left: 300px;
+}
+
+.effect {
+  color: #111111;
+  font-size: 33px;
+  font-style: italic;
   letter-spacing: -2px;
-}  —— разобраться */
+  padding-bottom: 20px;
+}
+
+.lovePotion h2 {
+  color: #111111;
+  font-size: 59px;
+  letter-spacing: -2px;
+  padding-bottom: 15px;
+}
+
+.ingridients {
+  color: #111111;
+  font-size: 22px;
+  font-style: normal;
+}
+
+/* четвёртая секция */
+
+.sectionFourth {
+  display: flex;
+  position: relative;
+  margin-top: -10px;
+}
+
+.sectionFourth img {
+  width: 1705px;
+  height: 988px;
+}
 
 .diacriticsMarks {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: -850px;
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 135px;
 }
 
 .diacriticsMarks p {
   color: #111111;
   font-size: 100px;
   line-height: 140%;
-  letter-spacing: 17px;
+  letter-spacing: 21px;
   text-align: center;
-} */
+}
 
-/* первая секция */
+.sectionFourth h2 {
+  position: absolute;
+  font-size: 44px;
+  letter-spacing: -1px;
+  margin-left: 600px;
+  margin-top: 50px;
+}
 
-/* вторая секция */
+/* пятая секция */
