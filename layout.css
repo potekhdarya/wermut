@@ -93,6 +93,10 @@ p {
   transform: rotate(15deg);
 }
 
+.headline h1 {
+  margin-left: 20px;
+}
+
 /* вторая секция  */
 
 .sectionSecond {
@@ -876,7 +880,7 @@ p {
 .symbols {
   position: absolute;
   margin-top: 1235px;
-  margin-left: 530px;
+  margin-left: 550px;
 }
 
 .bottle {
@@ -1264,5 +1268,5 @@ p {
 .logo {
   position: absolute;
   margin-top: 1110px;
-  margin-left: 90px;
+  margin-left: 80px;
 }
