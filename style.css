@@ -1,0 +1,10 @@
+@import "reset.css";
+@import "layout.css";
+
+@font-face {
+  font-family: "Wermut";
+  src: local("Wermut"), local("subset-Wermut"),
+    url("/fonts/subset-Wermut.woff") format("woff"),
+    url("/fonts/subset-Wermut-Italic.woff") format("woff");
+  font-weight: normal;
+}
