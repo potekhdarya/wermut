@@ -4,7 +4,7 @@
 @font-face {
   font-family: "Wermut";
   src: local("Wermut Regular"), local("Wermut"),
-    url("/fonts/subset-Wermut.woff") format("woff");
+    url("fonts/subset-Wermut.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -12,7 +12,7 @@
 @font-face {
   font-family: "Wermut";
   src: local("Wermut Italic"), local("Wermut-Italic"),
-    url("/fonts/subset-Wermut-Italic.woff") format("woff");
+    url("fonts/subset-Wermut-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
 }

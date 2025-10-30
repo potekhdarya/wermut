@@ -20,7 +20,7 @@ body {
   background-image: url(images/BODY_EXAMPLE.svg);
   width: 1440px;
   height: 12043px;
-  opacity: 0;
+  opacity: 0.1;
 } */
 
 h1 {
@@ -307,3 +307,256 @@ p {
 }
 
 /* пятая секция */
+
+.sectionFifth {
+  display: flex;
+  position: relative;
+  background-image: url(images/section_2_bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1440px;
+  height: 2659px;
+  justify-content: center;
+  margin-top: -166px;
+}
+
+.flag {
+  display: flex;
+  position: absolute;
+  width: 858px;
+  height: 279px;
+  margin-top: -140px;
+  margin-right: 20px;
+}
+
+/* пятая секция */
+
+.sectionFifth h2 {
+  position: absolute;
+  color: white;
+  margin-top: -72px;
+}
+
+.smallFlags {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  margin-top: 178px;
+}
+
+.smallFlagsText {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 870px;
+  margin-top: 200px;
+  margin-left: -20px;
+  letter-spacing: -1px;
+}
+
+.smallFlagsText p {
+  color: #111111;
+}
+
+.bright p {
+  color: white;
+}
+
+.bright {
+  position: absolute;
+  margin-top: 200px;
+}
+
+.gridbox {
+  margin-top: 335px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1440px;
+}
+
+.grid {
+  position: absolute;
+  width: 1440px;
+  height: 280px;
+}
+
+.gridbox h1 {
+  position: absolute;
+  margin-top: -187px;
+  margin-left: 98px;
+  color: white;
+  font-size: 501px;
+  letter-spacing: -20px;
+  -webkit-text-stroke: 8px #111111;
+  text-shadow: 1px #111111;
+  paint-order: stroke fill;
+}
+
+.gridMarks {
+  position: absolute;
+  margin-left: 75px;
+  margin-top: -12px;
+}
+
+.darkColor {
+  color: #111111;
+  position: absolute;
+  margin-top: 700px;
+  margin-left: -560px;
+  letter-spacing: -1px;
+}
+
+.dropCap2 {
+  font-size: 60px;
+}
+
+.etisAtis {
+  position: absolute;
+  margin-top: 796px;
+  margin-left: 69px;
+  width: 1456px;
+  height: 9450px;
+}
+
+.yLetter {
+  color: #c0c0c0;
+  position: absolute;
+  font-size: 443px;
+  -webkit-text-stroke: 16px #111111;
+  text-shadow: 1px #111111;
+  paint-order: stroke fill;
+  margin-top: 878px;
+  margin-left: -890px;
+}
+
+.aLetter {
+  color: white;
+  position: absolute;
+  font-size: 647px;
+  -webkit-text-stroke: 16px #111111;
+  text-shadow: 1px #111111;
+  paint-order: stroke fill;
+  margin-top: 880px;
+  margin-left: -80px;
+}
+
+.lLetter {
+  color: #111111;
+  position: absolute;
+  font-size: 444px;
+  -webkit-text-stroke: 16px #ffffff;
+  text-shadow: 1px #111111;
+  paint-order: stroke fill;
+  margin-top: 820px;
+  margin-left: 820px;
+}
+
+.etis {
+  position: absolute;
+  color: #111111;
+  font-size: 30px;
+  margin-top: 1480px;
+  margin-left: -875px;
+  letter-spacing: -1px;
+}
+
+.atis {
+  position: absolute;
+  color: #111111;
+  font-size: 30px;
+  margin-top: 1410px;
+  margin-left: 820px;
+  letter-spacing: -1px;
+}
+
+.animatis {
+  position: absolute;
+  color: #111111;
+  font-size: 30px;
+  margin-top: 1640px;
+  margin-left: -40px;
+  letter-spacing: -1px;
+}
+
+.form {
+  color: #111111;
+  position: absolute;
+  margin-top: 1760px;
+  margin-left: -590px;
+  letter-spacing: -1px;
+}
+
+.numbers p {
+  position: absolute;
+  color: #111111;
+}
+
+.oneNumber {
+  position: absolute;
+  font-size: 194px;
+  margin-top: 1620px;
+  margin-left: -445px;
+  transform: rotate(-17.5deg);
+}
+
+.twoNumber {
+  position: absolute;
+  font-size: 209px;
+  margin-top: 1670px;
+  margin-left: -290px;
+  transform: rotate(2deg);
+}
+
+.threeNumber {
+  position: absolute;
+  font-size: 258px;
+  margin-top: 1770px;
+  margin-left: -550px;
+  transform: rotate(19deg);
+}
+
+.fourNumber {
+  position: absolute;
+  font-size: 282px;
+  margin-top: 1770px;
+  margin-left: -410px;
+  transform: rotate(-8deg);
+}
+
+.fiveNumber {
+  position: absolute;
+  font-size: 215px;
+  margin-top: 1980px;
+  margin-left: -480px;
+  transform: rotate(-3deg);
+}
+
+.sixNumber {
+  position: absolute;
+  font-size: 152px;
+  margin-top: 2100px;
+  margin-left: -560px;
+  transform: rotate(17deg);
+}
+
+.sevenNumber {
+  position: absolute;
+  font-size: 95px;
+  margin-top: 2200px;
+  margin-left: -480px;
+  transform: rotate(-8deg);
+}
+
+.eightNumber {
+  position: absolute;
+  font-size: 95px;
+  margin-top: 2250px;
+  margin-left: -550px;
+  transform: rotate(22deg);
+}
+
+/* шестая секция */
