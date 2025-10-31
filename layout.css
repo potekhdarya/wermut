@@ -148,6 +148,7 @@ p {
   position: absolute;
   margin-top: 1480px;
   margin-left: 1060px;
+  white-space: nowrap;
 }
 
 .belladonna h4 {
@@ -251,6 +252,7 @@ p {
 }
 
 .lovePotion h2 {
+  white-space: nowrap;
   color: #111111;
   font-size: 59px;
   letter-spacing: -2px;
@@ -281,6 +283,7 @@ p {
   position: absolute;
   margin-left: 130px;
   margin-top: 135px;
+  white-space: nowrap;
 }
 
 .diacriticsMarks p {
